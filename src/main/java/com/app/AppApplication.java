@@ -11,7 +11,7 @@ public class AppApplication {
 
 	@GetMapping("/mesaj")
 	public String message(){
-		return "Aplicatie pe azure bajetii mei! Timi Titus";
+		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
 	}
 
 	public static void main(String[] args) {
