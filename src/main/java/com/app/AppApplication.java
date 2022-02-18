@@ -14,6 +14,11 @@ public class AppApplication {
 		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
 	}
 
+
+	@GetMapping("/test")
+	public String test(){
+		return "test";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(AppApplication.class, args);
 	}
