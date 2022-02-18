@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppApplication {
 
+	@GetMapping("/master")
+	public String master(){
+		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
+	}
+
+
 	@GetMapping("/mesaj")
 	public String message(){
 		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
