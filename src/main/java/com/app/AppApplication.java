@@ -14,6 +14,10 @@ public class AppApplication {
 		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
 	}
 
+	@GetMapping("/master1")
+	public String master1(){
+		return "Aplicatie pe azure bajetii mei! Timi Titus aici";
+	}
 
 	@GetMapping("/mesaj")
 	public String message(){
